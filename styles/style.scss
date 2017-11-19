@@ -1,0 +1,39 @@
+body {
+  height: 100vh;
+  cursor: crosshair;
+  background-color: #595CCB;
+}
+
+#score {
+  position: absolute;
+  top: 25px;
+  right: 25px;
+  background-color: greenyellow;
+  color: #000;
+  z-index: 200;
+  height: 25px;
+  width: 75px;
+  text-align: right;
+  padding-right: 5px;
+  font-size: 22px;
+  font-weight: 900;
+}
+
+#coin-box {
+  position: relative;
+  background-image: url(../img/capricoin.png);
+  background-size: 100px;
+  background-repeat: no-repeat;
+}
+#timer {
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+  height: 30px;
+  width: 30px;
+  border-radius: 15px;
+  background-color: white;
+  font-size: 28px;
+  border: 1px solid blue;
+  font-weight: 900;
+}
